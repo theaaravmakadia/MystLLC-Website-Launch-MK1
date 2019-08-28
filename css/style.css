@@ -1,0 +1,626 @@
+/*---------------------------------------------index.html---------------------------------------------*/
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  transition: 500ms ease;
+  background-image: linear-gradient(to right, #3a7bd5, #3a6073);
+  padding: 0 !important;
+}
+
+.navbar.scrolled{
+  background: transparent !important;
+}
+
+.navbar-brand img{
+    height: 55px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 80px;
+}
+
+
+#navbarNav{
+  padding-right: 80px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  font-size: 16px;
+}
+.navbar-nav li{
+    padding: 0px 8px;
+}
+
+.navbar-nav li a{
+    color: #ffffff !important;
+    font-weight: 600px;
+    float: right;
+    text-align: left;
+}
+
+.nav-link::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: width .3s
+}
+
+.nav-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+
+.fa-bars{
+  color:#ffffff;
+  font-size: 23px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+
+/* BANNER SECTION*/
+
+#banner{
+  background-image: linear-gradient(to right, #3a7bd5, #3a6073);
+  margin-top: -5px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  color: #fff;
+  padding-top: 4.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img_home{
+  width: 85%;
+  margin-bottom: 105px;
+}
+
+.title{
+  font-size: 36px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-bottom: 18px;
+}
+
+.intro{
+  width: 45px;
+  margin: 10px;
+  margin-bottom: 10%;
+}
+
+
+.buttonbanner{
+  margin-top: 25px;
+  position: absolute;
+  right: 366px;
+  padding: 8px 10px 10px 10px;
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+  width: 125px;
+  height: 38px;
+  text-align: center;
+  color: #404040;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #FFFFFF, #ECE9E6, #ffffff, #ECE9E6);
+  background-size: 400%;
+  border-radius: 30px;
+  display: inherit;
+}
+
+.buttonbanner:hover{
+  text-decoration: none;
+  color: #000000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*--------Mission Statement---------*/
+
+.section-1 {
+  padding: 20vmin 0vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 75%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 16vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.socialfb img{
+  height: 25px;
+  width: auto;
+  padding-right: 5px;
+  opacity: 0.7
+}
+
+.socialfb:hover img{
+  opacity: 1
+}
+
+.socialinst img{
+  height: 23px;
+  width: auto;
+  padding-right: 6px;
+  opacity: 0.7
+}
+
+.socialinst:hover img{
+  opacity: 1
+}
+
+.socialtwit img{
+  height: 25px;
+  width: auto;
+  opacity: 0.7
+}
+
+.socialtwit:hover img{
+  opacity: 1
+}
+
+/*---------------Youtube-----------------*/
+.jumbotron{
+  margin-top: 125px;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center; 
+}
+
+.display-4{
+  text-align: center; 
+}
+
+.textytbe{
+  text-align: center; 
+  padding-bottom: 15px;
+}
+
+.btnprimary {
+  background-image: linear-gradient(to right, #3a6073, #3a7bd5); 
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px 0px 550px auto;
+  opacity: 0.7;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.inside{
+  display: inline-block;
+}
+
+.btnprimary:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*---------------Services----------------*/
+
+#services{
+  padding: 80px 15px;
+  color: #1a2224;
+}
+
+.service-img{
+  margin-top: 20px;
+}
+
+.services{
+  padding: 40px 40px;
+  text-align: left;
+}
+
+.services h4{
+  margin-top: -5px;
+  text-align: left;
+  font-size: 21px;
+}
+
+.card{
+  height:500px;
+  padding: 0px -25px;
+  width:700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  align-content: center;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 6px;
+  width: 125px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*---------Social Media---------*/
+
+#social-media{
+  background: #2E4053;
+  padding: 45px 0;
+}
+
+#social-media p{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.instagram{
+  width: 75px;
+  height: auto;
+  transition: 0.5s;
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+.twitter{
+  width: 75px;
+  height: auto;
+  transition: 0.5s;
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+.youtube{
+  width: 78px;
+  height: auto;
+  transition: 0.5s;
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+.facebook{
+  width: 82px;
+  height: auto;
+  transition: 0.5s;
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+.social-icons a:hover img{
+  transform: translateY(-10px);
+}
+
+/*------------Footer------------*/
+#footer{
+  background: #283747;
+  height: 325px auto;
+  width: auto;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.footer-box{
+  padding: 45px;
+}
+
+.footer-box img{
+  height: 55px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.sect1 p{
+  opacity: 0.7;
+}
+
+.footer-info img{
+  height: 25px;
+  width: auto;
+  padding: 2px 8px;
+  opacity: 0.7;
+}
+
+.footer-info p{
+  padding: 0px 6px;
+}
+
+.help{
+  padding: 45px 0 0 35px;
+  
+}
+
+.footer-info img:hover{
+  opacity: 1;
+}
+
+.legal{
+  padding: 45px 0 0 60px;
+  color: #FFFFFF;
+}
+
+.column a{
+  color: #FFFFFF;
+  opacity: 0.7;
+  border: none;
+}
+
+.column a:hover{
+  color: #ffffff;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.available img{
+  height: 170px;
+  width: auto;
+  padding: 65px 0 0 60px;
+  margin: 0 auto;
+  opacity: 2;
+}
+
+.opera{
+  text-align: center;
+  padding: 25px 0 20px 400px;
+  opacity: 0.7;
+  font-weight: 50px;
+  font-size: 12px;
+}
+
+/*-----------------------------------------------products.html--------------------------------------------*/
+
+.texti{
+  text-align: center;
+  padding: 25% 0 -50px;
+  padding-top: 25%;
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.7;
+}
+
+.text1{
+  text-align: center;
+  padding: 2px 0 130px 0; 
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 10%;
+  opacity: 0.7;
+}
+
+.grim{
+  width: 150px;
+  height: auto;
+  padding-top: 195px;
+  margin-left: 650px;
+  margin-bottom: -310px;
+  padding-bottom: 1px;
+  opacity: 0.7;
+}
+
+
+/*-----------------------------------------------Aboutus.html------------------------------------------------*/
+
+
+.card {
+  margin: 0 auto;
+  float: none; 
+  margin-bottom: 8px; 
+}
+
+.card-img{
+  margin-top: 135px;
+  width: 85%;
+  height: auto;
+  padding: 0 0 0 5px;
+}
+
+.section_subtitle{
+  margin-top: 35px;
+  margin-bottom: 7px;
+  padding-left: 7px;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: capitalize;
+  color: #aaaaaa;
+  border-left: 3px solid #aaaaaa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section_main_title{
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 30px;
+  line-height: 1.27;
+  font-weight: 300;
+}
+
+
+.section_main_title strong{
+  font-weight: 600;
+}
+
+.card-text{
+  padding: 0px 0px 5px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.btnprime{
+  background-color: #f4511e;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 8px 18px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px 0px 550px auto;
+  opacity: 0.7;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btnprime:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.service-box{
+  text-align: center;
+  padding: 125px 15px 55px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3 ease 0s;
+}
+
+.service-box1{
+  text-align: center;
+  padding: 125px 15px 55px;
+  margin-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3 ease 0s;
+}
+
+.service-box:hover{
+  transform: translateY(-40px);
+}
+
+.service-box1:hover{
+  transform: translateY(-40px);
+}
+
+.service-box:before{
+  content:"";
+  width: 48px;
+  height: 40px;
+}
+
+.service-box1:before{
+  content:"";
+  width: 48px;
+  height: 40px;
+}
+
+.service-box:hover:before{
+  top: 0;
+  right: 0;
+}
+
+.service-box1:hover:before{
+  top: 0;
+  right: 0;
+}
+
+.service-box i{
+  display: block;
+  font-size: 65px;
+  color: #1a1a1a;
+  margin-bottom: -50px;
+}
+
+.service-box1 i{
+  display: block;
+  font-size: 65px;
+  color: #1a1a1a;
+  margin-bottom: -50px;
+}
+
+.service-box .description{
+  font-size: 15px;
+  opacity: 0.8;
+  line-height: 25px;
+  margin: 0;
+}
+
+.service-box1 .description{
+  font-size: 15px;
+  opacity: 0.8;
+  line-height: 25px;
+  margin: 0;
+}
+
+.mb-3{
+  width: 700px;
+}
+
+
+
+

@@ -1,0 +1,112 @@
+@media only screen and (max-width: 828px) {
+
+    .navbar-brand img{
+        padding-left: 10px;
+    }
+
+    .img_home{
+        margin-top: -895px; 
+        width: 60%;
+        height: auto;
+        padding-bottom: 175px;
+        padding-top: 90px;
+    }
+
+    .col-md-6{
+        margin-top: 170px;
+    }
+
+    .title{
+        padding-top: 25px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .text{
+        text-align: center;
+    }
+
+    .buttonbanner{
+        position: relative;
+        left: 192px;
+        margin-top: 35px;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    
+    
+    .pray{
+        margin-top: -100px;
+        margin-bottom: -275px;
+    }
+
+    .line{
+        padding-top: 15px;
+        padding-bottom: 35px;
+        margin-left: -325px;
+    }
+
+    .column img{
+        margin-left: 68px;
+    }
+
+    .display-4{
+        padding: 25px;
+        margin-bottom: -25px;
+    }
+
+    .legal{
+        padding: 50px;
+        text-align: center;
+        margin-left: 75px;
+        margin-bottom: -80px;
+    }
+
+    .help{
+        text-align: center;
+        margin-left: 72px;
+        padding: -25px;
+    }
+
+    /*------------rest--------------*/
+
+    .hard{
+        max-width: 200px;
+        margin-left: 100px;
+        margin-top: -70px;
+        margin-bottom: -25px;
+    }
+
+    .mb-3{
+        width: 395px;
+        height: 790px;
+    }
+    
+    .btnprime{
+        margin-top: 5px;
+        margin-left: 120px;
+    }
+
+    .service-box{
+        margin-bottom: -100px;
+    }
+
+    .grim{
+        padding-bottom: 190px;
+        margin-left: 125px;
+        position: sticky;
+    }
+
+    .texti{
+        padding-top: 135px;
+    }
+
+    .text1{
+        padding-bottom: 300px;
+    }
+
+}
